@@ -15,12 +15,12 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Project Name 2",
-      description: "",
-      tech: ["Flutter", "Node.js", "MongoDB"],
-      image: "https://via.placeholder.com/400x300",
+      title: "World cup encyclopedia",
+      description: "Um site em que será possivel exbibir diversas informações sobre o maior evento do esporte mundial de forma dinâmica e agradavel.",
+      tech: ["HTML", "CSS", "Java Script"],
+      image: "https://upload.wikimedia.org/wikipedia/pt/d/d7/Logo_copa_2026.png",
       links: {
-        github: "#",
+        github: "https://github.com/MigueXavier/World_cup_encyclopedia.git",
         demo: "#"
       }
     }/*,
