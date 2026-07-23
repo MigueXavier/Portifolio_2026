@@ -1,4 +1,6 @@
 import logoColorida from '../assets/logo_colorida.png';
+import logoSolidus from '../assets/logo_solidus.png'
+import Personagem from '../assets/estrela.png'
 
 function Projects() {
   const projects = [
@@ -18,23 +20,34 @@ function Projects() {
       title: "World cup encyclopedia",
       description: "Um site em que será possivel exbibir diversas informações sobre o maior evento do esporte mundial de forma dinâmica e agradavel.",
       tech: ["HTML", "CSS", "Java Script"],
-      image: "https://upload.wikimedia.org/wikipedia/pt/d/d7/Logo_copa_2026.png",
+      image: "https://upload.wikimedia.org/wikipedia/pt/thumb/5/58/2026_FIFA_World_Cup_logo.svg/1920px-2026_FIFA_World_Cup_logo.svg.png",
       links: {
         github: "https://github.com/MigueXavier/World_cup_encyclopedia.git",
         demo: "#"
       }
-    }/*,
+    },
     {
       id: 3,
-      title: "Project Name 3",
-      description: "Brief description of your mobile app and its key features",
-      tech: ["Swift", "SwiftUI", "CoreData"],
-      image: "https://via.placeholder.com/400x300",
+      title: "Solidus",
+      description: "Plataforma web para gestão e controle financeiro de ONGs, facilitando a prestação de contas, o gerenciamento de doações e a transparência de recursos.",
+      tech: ["HTML", "CSS", "Java Script", "Json Server"],
+      image: logoSolidus,
       links: {
-        github: "#",
+        github: "https://github.com/MigueXavier/Solidus.git",
+        demo: "https://motivated-creation-production.up.railway.app"
+      }
+    },
+    {
+      id: 4,
+      title: "Perdido no Algoritimo",
+      description: "Jogo de puzzle interativo onde o jogador supera desafios e navega por labirintos aplicando lógica de programação e conceitos fundamentais de algoritmos.",
+      tech: ["Python", "Pygame", "Json"],
+      image: Personagem,
+      links: {
+        github: "https://github.com/MigueXavier/trabalho_pygame.git",
         demo: "#"
       }
-    }*/
+    }
   ];
 
   return (

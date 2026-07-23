@@ -15,6 +15,7 @@ function About() {
             <span className="skill">Laravel</span>
             <span className="skill">Firebase</span>
             <span className="skill">MySQL</span>
+            <span className="skill">Python</span>
           </div>
         </div>
       </div>
